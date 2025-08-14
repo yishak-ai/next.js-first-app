@@ -1,9 +1,12 @@
-import { title } from "node:process";
-
 export const metadata = {
   title: "blog second",
 };
-export default function Second() {
+export default async function Second() {
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve("initaing delay");
+    }, 3000);
+  });
   return (
     <>
       <div>
