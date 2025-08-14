@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-serif  smooth">
         {" "}
-        <header className="h-20 flex justify-start items-center  shadow-lg shadow-slate-500 bg-slate-700">
+        <header className="h-20 left-0 right-0 top-0 flex justify-start items-center  shadow-lg shadow-slate-500 bg-slate-700">
           <p className="ml-3 text-slate-50 text-3xl font-bold">Header</p>
         </header>
         {children}
